@@ -23,6 +23,9 @@
 
 #include <common.h>
 
+#define CONFIG_USB_OHCI_NEW
+#define CONFIG_S3C2400
+
 #if defined(CONFIG_USB_OHCI_NEW) && defined(CFG_USB_OHCI_CPU_INIT)
 # if defined(CONFIG_S3C2400) || defined(CONFIG_S3C2410) || \
      defined(CONFIG_S3C2440) || defined(CONFIG_S3C2442)
